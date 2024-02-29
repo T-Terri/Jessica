@@ -1,0 +1,203 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap'); */
+:root{
+    
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+}
+
+body{
+  background-color: var(--OffBlack);
+  font-family: "Cabin", sans-serif;
+  /* font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal; */
+}
+
+.hero{
+    border: 2px solid black;
+    width: 40%;
+    background-color: var(--DarkGrey);
+    height: 550px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 400px;
+    
+}
+.img{
+    border-radius: 100px;
+    margin-left: 210px;
+    width: 80px;
+    margin-top: 20px;
+    
+}
+.image{
+    justify-content: center;
+}
+h2{
+    color: var(--White);
+}
+p{
+    color: var(--Green);
+}
+h5{
+    color: var(--White);
+    text-align: center;
+    margin-top: 40px;
+}
+.text{
+    text-align: center;
+    line-height: 10px;
+}
+.button{
+    height: 40px;
+    width: 60%;
+    background-color: var(--Grey);
+    border: none;
+    color: var(--White);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.buttonn{
+    height: 40px;
+    width: 60%;
+    background-color: var(--Grey);
+    border: none;
+    color: var(--White);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    top: 15px;
+}
+.buttono{
+    height: 40px;
+    width: 60%;
+    background-color: var(--Grey);
+    border: none;
+    color: var(--White);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+}
+.buttoni{
+    height: 40px;
+    width: 60%;
+    background-color: var(--Grey);
+    border: none;
+    color: var(--White);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    top: 50px;
+}
+.btn{
+    height: 40px;
+    width: 60%;
+    background-color: var(--Grey);
+    border: none;
+    color: var(--White);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    top: 70px;
+}
+.btnlist{
+    display: grid;
+    place-items: center;
+    margin-top:  0px;
+}
+
+@media (max-width:600px) {
+    .hero{
+        margin-top: 40px;
+        border: 2px solid black;
+        width: 400px;
+        background-color: var(--DarkGrey);
+        height: 600px;
+        border: none;
+        border-radius: 10px;
+        left: 1px;
+        
+    }
+
+.img{
+    border-radius: 100px;
+    margin-left: 20px;
+    width: 80px;
+    
+}
+.img{
+    border-radius: 100px;
+    margin-left: 160px;
+    width: 80px;
+    margin-top: 40px;
+    
+}
+.button{
+    height: 40px;
+    width: 75%;
+    background-color: var(--Grey);
+    border: none;
+    color: var(--White);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.buttonn{
+    height: 40px;
+    width: 75%;
+    background-color: var(--Grey);
+    border: none;
+    color: var(--White);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    top: 15px;
+}
+.buttono{
+    height: 40px;
+    width: 75%;
+    background-color: var(--Grey);
+    border: none;
+    color: var(--White);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+}
+.buttoni{
+    height: 40px;
+    width: 75%;
+    background-color: var(--Grey);
+    border: none;
+    color: var(--White);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    top: 50px;
+}
+.btn{
+    height: 40px;
+    width: 75%;
+    background-color: var(--Grey);
+    border: none;
+    color: var(--White);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    top: 70px;
+}
+}
